@@ -3,9 +3,9 @@
 
 ## Pardus Docker Images
 
-Bu repository altında Pardus base image'i üzerine kurulumu yapılmış çeşitli platform ve araçlara ait docker image'leri yer almaktadır.
+Bu repository altında Pardus base image'i üzerine kurulumu yapılmış çeşitli platform ve araçlara ait docker image'leri yer alacaktır.
 
-Bu proje, yerli işletim sistemimizi desteklemek olması ve docker tabanlı projelerde de kullanımının artmasına katkıda bulunmak amacı ile hazırlanmıştır.
+Bu proje, yerli işletim sistemimizi destek olmak ve docker tabanlı projelerde de kullanımının artmasına katkıda bulunmak amacı ile hazırlanmıştır.
 
 ### DockerHub Adresi:
 https://cloud.docker.com/u/tursoft/repository/docker/tursoft
