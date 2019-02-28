@@ -1,0 +1,7 @@
+FROM pardus:17.4-SERVER-amd64
+MAINTAINER Muhammet Turşak (tursoft@gmail.com)
+
+# COPY ./myapp /myapp
+# RUN chmod +x /myapp/*.sh
+# RUN echo "run.sh is copied..."
+# ENTRYPOINT /myapp/run.sh
