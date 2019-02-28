@@ -31,6 +31,9 @@ https://cloud.docker.com/u/tursoft/repository/docker/tursoft
 **Katkıda bulunmak için:**
 * Lütfen şu adresten bizimle iletişime geçiniz: tursoft@gmail.com
 
+**Proje Ekibi**
+* Muhammet Turşak - Ekip Lideri / Kıdemli Yazılım Mimarı (tursoft@gmail.com) - [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/linkedin-icon.18x18.png)](https://www.linkedin.com/in/tursoft/)
+
 **Kaynaklar**
 * https://www.pardus.org.tr/
 * https://docs.docker.com/install/linux/docker-ce/debian/
