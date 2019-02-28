@@ -1,4 +1,4 @@
-FROM pardus:17.4-SERVER-amd64
+FROM tursoft/pardus:17.4-SERVER-amd64
 MAINTAINER Muhammet Turşak (tursoft@gmail.com)
 
 # COPY ./myapp /myapp
