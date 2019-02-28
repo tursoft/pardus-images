@@ -1,0 +1,7 @@
+FROM pardus:17.4-SERVER-amd64
+MAINTAINER Muhammet Turşak (tursoft@gmail.com)
+
+COPY ./app /app
+RUN chmod +x /app/*.sh
+
+ENTRYPOINT /app/run.sh
