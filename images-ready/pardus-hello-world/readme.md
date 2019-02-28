@@ -3,6 +3,8 @@
 
 Pardus Base Image üzerinde çalışan örnek bir image'dir.
 
+![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus-hello-world.svg)
+
 ### Kullanım
 ```sh
 sudo docker run --name pardus-hello-world tursoft/pardus-hello-world:latest
