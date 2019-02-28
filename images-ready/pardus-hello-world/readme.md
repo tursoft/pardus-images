@@ -1,4 +1,4 @@
-![Pardus](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/pardus.logo.horizontal.png)
+![Pardus](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/pardus.on.docker.white.png)
 ## pardus-hello-world
 
 Pardus Base Image üzerinde çalışan örnek bir image'dir.
