@@ -26,3 +26,7 @@ https://cloud.docker.com/u/tursoft/repository/docker/tursoft
 
 **Katkıda bulunmak için:**
 * Lütfen şu adresten bizimle iletişime geçiniz: tursoft@gmail.com
+
+**Kaynaklar**
+* https://www.pardus.org.tr/
+* https://docs.docker.com/install/linux/docker-ce/debian/
