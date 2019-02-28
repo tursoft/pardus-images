@@ -3,6 +3,13 @@
 
 ## Pardus Docker Images
 
+![Contributors](https://img.shields.io/github/contributors/tursoft/pardus-images.svg) 
+![Issues](https://img.shields.io/github/issues-raw/tursoft/pardus-images.svg) 
+![Forks](https://img.shields.io/github/forks/tursoft/pardus-images.svg?style=social) 
+![Stars](https://img.shields.io/github/stars/tursoft/pardus-images.svg?style=social) 
+![Wathers](https://img.shields.io/github/watchers/tursoft/pardus-images.svg?style=social)
+
+
 Bu repository altında Pardus base image'i üzerine kurulumu yapılmış çeşitli platform ve araçlara ait docker image'leri yer alacaktır.
 
 Bu proje, yerli işletim sistemimizi destek olmak ve docker tabanlı projelerde de kullanımının artmasına katkıda bulunmak amacı ile hazırlanmıştır.
