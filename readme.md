@@ -8,7 +8,8 @@ Bu repository altında Pardus base image'i üzerine kurulumu yapılmış çeşit
 Bu proje, yerli işletim sistemimizi destek olmak ve docker tabanlı projelerde de kullanımının artmasına katkıda bulunmak amacı ile hazırlanmıştır.
 
 ### DockerHub Adresi:
-https://cloud.docker.com/u/tursoft/repository/docker/tursoft
+https://hub.docker.com/u/tursoft
+
 
 ### Pardus Versionları:
 * [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) pardus:17.4-SERVER-amd64](https://cloud.docker.com/repository/docker/tursoft/pardus) ![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus.svg)
