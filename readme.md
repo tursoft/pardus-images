@@ -11,11 +11,11 @@ Bu proje, yerli işletim sistemimizi desteklemek olması ve docker tabanlı proj
 https://cloud.docker.com/u/tursoft/repository/docker/tursoft
 
 ### Pardus Versionları:
-* [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) 17.4-SERVER-amd64](https://cloud.docker.com/repository/docker/tursoft/pardus)
+* [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) pardus:17.4-SERVER-amd64](https://cloud.docker.com/repository/docker/tursoft/pardus)
 
 
 ### Mevcut Image Listesi:
-* [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) hello-world](https://cloud.docker.com/repository/docker/tursoft/pardus-hello-world)
+* [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) pardus-hello-world](https://cloud.docker.com/repository/docker/tursoft/pardus-hello-world)
 
 
 ### Yeni Eklenecek Image Listesi:
