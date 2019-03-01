@@ -25,9 +25,10 @@ https://hub.docker.com/u/tursoft
 ### Mevcut Image Listesi:
 * [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) pardus-hello-world](https://cloud.docker.com/repository/docker/tursoft/pardus-hello-world) ![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus-hello-world.svg)
 
+* [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) pardus-dotnetcore](https://cloud.docker.com/repository/docker/tursoft/pardus-dotnetcore) ![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus-dotnetcore.svg)
+
 
 ### Yeni Eklenecek Image Listesi:
-* dotnetcore
 * jdk
 * mysql
 * postgresql
