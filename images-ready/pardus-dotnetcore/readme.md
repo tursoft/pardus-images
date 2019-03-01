@@ -1,4 +1,4 @@
-![Pardus](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.pardus-dotnetcore.png)
+![Pardus](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.pardus-dotnetcore.small.png)
 ## pardus-dotnetcore
 
 Pardus Base Image üzerinde dotnetcore sdk ve runtime image'lerini içerir.
@@ -13,6 +13,10 @@ sudo docker run --name pardus-dotnetcore tursoft/pardus-dotnetcore:2.2.104
 ### Tag'ler
 * 2.2.104.sdk
 * 2.2.104.sdk-ornek
+
+### Ekran Görüntüleri
+![Pardus](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-dotnetcore/2.2.104-sdk-ornek/screenshoots/pardus-dotnetcore-ornek-screenshoot1.jpg)
+
 
 ### Test
 
