@@ -37,7 +37,7 @@ https://hub.docker.com/u/tursoft
 
 ### Yol Haritası:
 * Yeni image'ların eklenmesi ve dockerhub üzerinde yayınlanması
-* Image oluşturma ve test süreçlerinin CI\CD hatları ile otomatize edilmesi
+* Image oluşturma ve test süreçlerinin CI\CD hataları ile otomatize edilmesi
 * Yeni ekip üyeleri bulunması
 
 
