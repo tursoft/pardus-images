@@ -1,14 +1,18 @@
 ![Pardus](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/pardus.on.docker.white.png)
-## pardus-hello-world
+## pardus-dotnetcore
 
-Pardus Base Image üzerinde çalışan örnek bir image'dir.
+Pardus Base Image üzerinde dotnetcore sdk ve runtime image'lerini içerir.
 
-![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus-hello-world.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus-dotnetcore.svg)
 
 ### Kullanım
 ```sh
-sudo docker run --name pardus-hello-world tursoft/pardus-hello-world:latest
+sudo docker run --name pardus-dotnetcore tursoft/pardus-dotnetcore:2.2.104
 ```
+
+### Tag'ler
+* 2.2.104.sdk
+* 2.2.104.sdk-ornek
 
 ### Test
 
