@@ -29,10 +29,11 @@ https://hub.docker.com/u/tursoft
 
 
 ### Yeni Eklenecek Image Listesi:
-* jdk
-* mysql
-* postgresql
-* php
+* pardus-jdk
+* pardus-mysql
+* pardus-postgresql
+* pardus-php
+* pardus-python
 
 ### Yol Haritası:
 * Yeni image'ların eklenmesi ve dockerhub üzerinde yayınlanması
