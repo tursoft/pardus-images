@@ -11,7 +11,8 @@ sudo docker run --name pardus-dotnetcore tursoft/pardus-dotnetcore:2.2.104
 ```
 
 ### Tag'ler
-* 2.2.104
+* 2.2.104.sdk
+* 2.2.104.sdk-ornek
 
 ### Test
 

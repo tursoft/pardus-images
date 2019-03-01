@@ -1,4 +1,4 @@
-FROM tursoft/pardus-dotnetcore:2.2.104
+FROM tursoft/pardus-dotnetcore:2.2.104.sdk
 MAINTAINER Muhammet Turşak (tursoft@gmail.com)
 
 # ===============================================================
@@ -28,7 +28,8 @@ COPY tests/. .
 ENTRYPOINT ["dotnet", "test", "--logger:trx"]
 
 
-FROM mcr.microsoft.com/dotnet/core/runtime:2.2 AS runtime
+FROM tursoft/pardus-dotnetcore:2.2.104.sdk
+# FROM mcr.microsoft.com/dotnet/core/runtime:2.2 AS runtime
 WORKDIR /app
 COPY --from=build /app/dotnetapp/out ./
 ENTRYPOINT ["dotnet", "dotnetapp.dll"]
