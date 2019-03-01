@@ -1,4 +1,4 @@
-FROM tursoft/pardus-dotnetcore:2.2.104-sdk
+FROM tursoft/pardus-dotnetcore:2.2.104-sdk AS build
 MAINTAINER Muhammet Turşak (tursoft@gmail.com)
 
 # ===============================================================
