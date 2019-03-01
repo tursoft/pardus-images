@@ -7,7 +7,7 @@ Pardus Base Image üzerinde nodejs runtime image'lerini içerir.
 
 ### Kullanım
 ```sh
-sudo docker run --name pardus-nodejs tursoft/pardus-nodejs:latest
+sudo docker run --name pardus-nodejs tursoft/pardus-nodejs:8.15.1
 ```
 
 ### Tag'ler

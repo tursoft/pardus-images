@@ -7,7 +7,7 @@ Pardus Base Image üzerinde dotnetcore sdk ve runtime image'lerini içerir.
 
 ### Kullanım
 ```sh
-sudo docker run --name pardus-dotnetcore tursoft/pardus-dotnetcore:latest
+sudo docker run --name pardus-dotnetcore tursoft/pardus-dotnetcore:2.2.104
 ```
 
 ### Tag'ler
