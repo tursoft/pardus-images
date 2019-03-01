@@ -1,4 +1,4 @@
-![Pardus](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/pardus.on.docker.white.png)
+![Pardus](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.pardus-dotnetcore.png)
 ## pardus-dotnetcore
 
 Pardus Base Image üzerinde dotnetcore sdk ve runtime image'lerini içerir.
