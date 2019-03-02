@@ -41,7 +41,7 @@ https://hub.docker.com/u/tursoft
 * Yeni ekip üyeleri bulunması
 
 
-### Katkıda bulunmak için:
+### Katkıda Bulunmak İçin
 Ekibe katılmak ve katkı sağlamak isterseniz lütfen pardus.images@gmail.com adresine email atınız.
 
 ### İletişim
