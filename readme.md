@@ -44,8 +44,16 @@ https://hub.docker.com/u/tursoft
 ### Katkıda bulunmak için:
 * Lütfen şu adresten bizimle iletişime geçiniz: tursoft@gmail.com
 
+### İletişim
+* Email     : pardus.images@gmail.com
+* Twitter   : https://twitter.com/pardus_images
+
+NOT: Ekibe katılmak ve katkı sağlamak isterseniz lütfen pardus.images@gmail.com adresine email atınız.
+
+
 ### Proje Ekibi
 * Muhammet Turşak - Ekip Lideri / Kıdemli Yazılım Mimarı (tursoft@gmail.com) - [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/linkedin-icon.18x18.png)](https://www.linkedin.com/in/tursoft/)
+
 
 ### Kaynaklar
 * https://www.pardus.org.tr/
