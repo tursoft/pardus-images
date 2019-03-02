@@ -42,13 +42,11 @@ https://hub.docker.com/u/tursoft
 
 
 ### Katkıda bulunmak için:
-* Lütfen şu adresten bizimle iletişime geçiniz: tursoft@gmail.com
+Ekibe katılmak ve katkı sağlamak isterseniz lütfen pardus.images@gmail.com adresine email atınız.
 
 ### İletişim
 * Email     : pardus.images@gmail.com
 * Twitter   : https://twitter.com/pardus_images
-
-NOT: Ekibe katılmak ve katkı sağlamak isterseniz lütfen pardus.images@gmail.com adresine email atınız.
 
 
 ### Proje Ekibi
