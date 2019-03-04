@@ -7,11 +7,11 @@ LABEL maintainer="Muhammet Turşak (tursoft@gmail.com)"
 # ===============================================================
 
 # Build =======================
-RUN echo "================================="
-RUN echo "İşletim Sistemi"
-RUN echo "================================="
-RUN cat /etc/os-release
-RUN echo "================================="
+RUN echo "=================================" && \
+    echo "İşletim Sistemi" && \
+    echo "=================================" && \
+    cat /etc/os-release && \
+    echo "================================="
 
 WORKDIR /app
 
@@ -34,11 +34,11 @@ FROM build AS testrunner
 WORKDIR /app/tests
 COPY tests/. .
 
-RUN echo "================================="
-RUN echo "İşletim Sistemi"
-RUN echo "================================="
-RUN cat /etc/os-release
-RUN echo "================================="
+RUN echo "=================================" && \
+    echo "İşletim Sistemi" && \
+    echo "=================================" && \
+    cat /etc/os-release && \
+    echo "================================="
 
 ENTRYPOINT ["dotnet", "test", "--logger:trx"]
 
@@ -48,9 +48,16 @@ FROM tursoft/pardus-dotnetcore:2.2.2 AS runtime
 WORKDIR /app
 COPY --from=build /app/dotnetapp/out ./
 
-RUN echo "================================="
-RUN echo "İşletim Sistemi"
-RUN echo "================================="
-RUN cat /etc/os-release
-RUN echo "================================="
+RUN echo "=================================" && \
+    echo "İşletim Sistemi" && \
+    echo "=================================" && \
+    cat /etc/os-release && \
+    echo "================================="
+
+CMD echo "=================================" && \
+    echo "İşletim Sistemi" && \
+    echo "=================================" && \
+    cat /etc/os-release && \
+    echo "================================="
+
 ENTRYPOINT ["dotnet", "dotnetapp.dll"]
