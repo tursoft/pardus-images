@@ -41,8 +41,42 @@ https://hub.docker.com/u/tursoft
 * Yeni ekip üyeleri bulunması
 
 
-### Katkıda bulunmak için:
+### Katkıda Bulunma Prosedürü:
 * Lütfen şu adresten bizimle iletişime geçiniz: tursoft@gmail.com
+
+**Bir sorun mu buldunuz?**
+Kaynak kodunda bir hata veya belgelerde bir hata bulursanız, GitHub Repository'ye bir sorun göndererek yardımcı olabilirsiniz. Daha da iyisi, bir Düzeltme Talebi ile düzeltmeyi gönderebilirsiniz.
+
+Bir sorun gönderirken lütfen aşağıdaki bilgileri ekleyin:
+
+* Sorunun açıklaması
+* Bir hata alıyorsanız hata mesajını olabildiğince detaylı bir şekilde
+* Mümkünse, lütfen sorunu yeniden üreten kodu/adımları ekleyin. DropBox veya GitHub's Gist, büyük kod örneklerini paylaşmak için kullanılabilir veya yeni bir testte üretilen sorunla ilgili bir pull-request gönderebilirsiniz.
+* Bu konuda ne kadar fazla bilgi eklerseniz, düzeltilmesi de o kadar muhtemeldir!
+
+**Yeni bir image eklemek istiyorsunuz?**
+Yeni bir image eklemek için lütfen aşağıdaki adımları izleyiniz;
+
+* Github üzerinden bu repository'yi kendi hesabınıza fork yapın
+* Kendi hesabınızdaki repository'yi bilgisayarınıza indirin
+* Projedeki benzer dizin yapısında yeni image için bir dizin açın
+* **images-ready** tamamlandmış image'ler için **images-todo** ise planlanan imaj'lar için kullanılır
+* **images-todo\_pardus-template** dizini altındaki dizin yapısını kopyalayarak başlayabilirsiniz
+* Her image için ayrı dizin açın, image dizini **pardus-** ile başlasın
+* Her image dizini içerisinde 1 adet **readme.md** dosyası bulunsun ve diğer image'ler ie uyumlu formatta olmasına dikkat edin
+* Eklediğiniz platformun farklı versiyonlara öze versiyon ismini ifade eden bir dizin açın (Örnek:pardus-dotnetcore\2.2.104-sdk)
+* **dockerfile** dosyasınızı bu dizine ekleyin
+* dockerfile dosyanızı local bilgisayarınızda docker build ve docker run komutları ile test edin
+* Herşey yolunda ise kodlarınızı kendi repository'nize commit edin
+* Son olarak kendi repository'nizden ana repository'ye **Pull Request** oluşturun
+
+**Pull Request yaparken uyulması gerekenler:**
+* Yeni image'e ait dizin yapısının projedeki diğer image'ler ile uyumlu olduğundan emin olun
+* Pull Request yapmadan mutlaka image testlerinizi yapmış olun
+* Pull Request'iniz içerisinde kendi image'iniz dışındaki dizinlere ait başka bir değişiklik olmadığından emin olun
+* Pull Request oluşturma hakkında daha fazla bilgi için GitHub Yardımını okuyun: 
+https://help.github.com/en/articles/creating-a-pull-request-from-a-fork
+
 
 ### Proje Ekibi
 * Muhammet Turşak - Ekip Lideri / Kıdemli Yazılım Mimarı (tursoft@gmail.com) - [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/linkedin-icon.18x18.png)](https://www.linkedin.com/in/tursoft/)
