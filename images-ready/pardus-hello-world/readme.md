@@ -7,7 +7,7 @@ Pardus Base Image üzerinde çalışan örnek bir image'dir.
 
 ### Kullanım
 ```sh
-sudo docker run --name pardus-hello-world tursoft/pardus-hello-world:latest
+sudo docker run --name pardus-hello-world tursoft/pardus-hello-world
 ```
 
 ### Test
