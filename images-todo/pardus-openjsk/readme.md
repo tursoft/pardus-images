@@ -7,7 +7,7 @@ Pardus Base Image üzerinde openjdk jre ve jdk image'lerini içerir.
 
 ### Kullanım
 ```sh
-sudo docker run --name pardus-dotnetcore tursoft/pardus-openjdk:8u181-jre
+sudo docker run tursoft/pardus-openjdk:8u181-jre java -version
 ```
 
 ### Tag'ler
@@ -17,7 +17,7 @@ sudo docker run --name pardus-dotnetcore tursoft/pardus-openjdk:8u181-jre
 
 ### Ekran Görüntüleri
 
-![pardus-openjdk:8u181-jre](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-openjdk/8u181-jre/resources/screenshoots/pardus-openjdk-8u181-jre.screenshoot1.jpg)
+![pardus-openjdk:8u181-jre](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-openjdk/8u181-jre/resources/screenshoots/pardus-openjdk-8u181-jre.screenshoots1.jpg)
 
 ![pardus-openjdk:8u181-jdk](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-openjdk/8u181-jdk/resources/screenshoots/pardus-openjdk-8u181-jdk.screenshoot1.jpg)
 
