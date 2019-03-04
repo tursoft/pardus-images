@@ -11,9 +11,12 @@ sudo docker run --name pardus-hello-world tursoft/pardus-hello-world:latest
 ```
 
 ### Test
-
 Play with Docker üzerinde test edebilirsiniz:
 [https://labs.play-with-docker.com/](https://labs.play-with-docker.com/)
+
+### Ekran Görüntüsü
+
+![Ekran Görünütüs](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-hello-world/resources/screenshoots/pardus-hello-world.screenshoot1.jpg)
 
 ### Github Projesi
 [https://github.com/tursoft/pardus-images](https://github.com/tursoft/pardus-images)

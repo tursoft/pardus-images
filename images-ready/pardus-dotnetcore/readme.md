@@ -14,8 +14,13 @@ sudo docker run --name pardus-dotnetcore tursoft/pardus-dotnetcore:2.2.104
 * 2.2.104.sdk
 * 2.2.104.sdk-ornek
 
-### Ekran Görüntüleri
-![Pardus](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-dotnetcore/2.2.104-sdk-ornek/screenshoots/pardus-dotnetcore-ornek-screenshoot1.jpg)
+### Ekran Görüntüsü
+
+![pardus-dotnetcore:2.2.2](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/2.2.2/resources/screenshoots/pardus-dotnetcore-2.2.2.screenshoot1.jpg)
+
+![pardus-dotnetcore:2.2.104-sdk](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/2.2.104-sdk/resources/screenshoots/pardus-dotnetcore-2.2.104-sdk.screenshoot1.jpg)
+
+![pardus-dotnetcore:2.2.104-sdk-ornek](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/2.2.104-sdk-ornek/resources/screenshoots/pardus-dotnetcore-ornek-screenshoot1.jpg)
 
 
 ### Test
