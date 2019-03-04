@@ -31,7 +31,7 @@ ENTRYPOINT ["dotnet", "test", "--logger:trx"]
 
 
 # Runtime =======================
-FROM tursoft/pardus-dotnetcore:2.2.104 AS runtime
+FROM tursoft/pardus-dotnetcore:2.2.2 AS runtime
 WORKDIR /app
 COPY --from=build /app/dotnetapp/out ./
 ENTRYPOINT ["dotnet", "dotnetapp.dll"]
