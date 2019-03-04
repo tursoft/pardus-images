@@ -10,6 +10,8 @@ LABEL maintainer="Muhammet Turşak (tursoft@gmail.com)"
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         curl \
+        libunwind8 \
+        icu-devtools \
     && rm -rf /var/lib/apt/lists/*
 
 # Install .NET Core
