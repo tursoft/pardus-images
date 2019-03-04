@@ -42,7 +42,7 @@ https://hub.docker.com/u/tursoft
 
 
 ### Katkıda Bulunma Prosedürü:
-* Lütfen şu adresten bizimle iletişime geçiniz: tursoft@gmail.com
+Ekibe katılmak için lütfen şu adresten bizimle iletişime geçiniz: pardus.images@gmail.com
 
 **Bir sorun mu buldunuz?**
 Kaynak kodunda bir hata veya belgelerde bir hata bulursanız, GitHub Repository'ye bir sorun göndererek yardımcı olabilirsiniz. Daha da iyisi, bir Düzeltme Talebi ile düzeltmeyi gönderebilirsiniz.
@@ -77,9 +77,13 @@ Yeni bir image eklemek için lütfen aşağıdaki adımları izleyiniz;
 * Pull Request oluşturma hakkında daha fazla bilgi için GitHub Yardımını okuyun: 
 https://help.github.com/en/articles/creating-a-pull-request-from-a-fork
 
+### İletişim
+* Email     : pardus.images@gmail.com
+* Twitter   : https://twitter.com/pardus_images
 
 ### Proje Ekibi
 * Muhammet Turşak - Ekip Lideri / Kıdemli Yazılım Mimarı (tursoft@gmail.com) - [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/linkedin-icon.18x18.png)](https://www.linkedin.com/in/tursoft/)
+
 
 ### Kaynaklar
 * https://www.pardus.org.tr/
