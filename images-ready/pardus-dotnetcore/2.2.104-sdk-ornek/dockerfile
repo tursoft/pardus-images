@@ -7,6 +7,12 @@ LABEL maintainer="Muhammet Turşak (tursoft@gmail.com)"
 # ===============================================================
 
 # Build =======================
+RUN echo "================================="
+RUN echo "İşletim Sistemi"
+RUN echo "================================="
+RUN cat /etc/os-release
+RUN echo "================================="
+
 WORKDIR /app
 
 # copy csproj and restore as distinct layers
@@ -27,6 +33,13 @@ RUN dotnet publish -c Release -o out
 FROM build AS testrunner
 WORKDIR /app/tests
 COPY tests/. .
+
+RUN echo "================================="
+RUN echo "İşletim Sistemi"
+RUN echo "================================="
+RUN cat /etc/os-release
+RUN echo "================================="
+
 ENTRYPOINT ["dotnet", "test", "--logger:trx"]
 
 
@@ -34,4 +47,10 @@ ENTRYPOINT ["dotnet", "test", "--logger:trx"]
 FROM tursoft/pardus-dotnetcore:2.2.2 AS runtime
 WORKDIR /app
 COPY --from=build /app/dotnetapp/out ./
+
+RUN echo "================================="
+RUN echo "İşletim Sistemi"
+RUN echo "================================="
+RUN cat /etc/os-release
+RUN echo "================================="
 ENTRYPOINT ["dotnet", "dotnetapp.dll"]
