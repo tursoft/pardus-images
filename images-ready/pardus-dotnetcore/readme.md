@@ -31,3 +31,6 @@ Lütfen şu adresten bizimle iletişime geçiniz: tursoft@gmail.com
 
 ### Proje Ekibi
 * Muhammet Turşak - Ekip Lideri / Kıdemli Yazılım Mimarı (tursoft@gmail.com) - [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/linkedin-icon.18x18.png)](https://www.linkedin.com/in/tursoft/)
+
+## Kaynaklar
+* https://hub.docker.com/_/microsoft-dotnet-core-runtime/
