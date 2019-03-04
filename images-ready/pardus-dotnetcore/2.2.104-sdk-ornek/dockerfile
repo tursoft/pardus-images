@@ -54,10 +54,10 @@ RUN echo "=================================" && \
     cat /etc/os-release && \
     echo "================================="
 
-CMD echo "=================================" && \
-    echo "İşletim Sistemi" && \
-    echo "=================================" && \
-    cat /etc/os-release && \
-    echo "================================="
 
-ENTRYPOINT ["dotnet", "dotnetapp.dll"]
+ENTRYPOINT dotnet dotnetapp.dll && \
+            echo "=================================" && \
+            echo "İşletim Sistemi" && \
+            echo "=================================" && \
+            cat /etc/os-release && \
+            echo "================================="
