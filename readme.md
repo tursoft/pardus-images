@@ -45,6 +45,7 @@ https://hub.docker.com/u/tursoft
 Ekibe katılmak için lütfen şu adresten bizimle iletişime geçiniz: pardus.images@gmail.com
 
 **Bir sorun mu buldunuz?**
+
 Kaynak kodunda bir hata veya belgelerde bir hata bulursanız, GitHub Repository'ye bir sorun göndererek yardımcı olabilirsiniz. Daha da iyisi, bir Düzeltme Talebi ile düzeltmeyi gönderebilirsiniz.
 
 Bir sorun gönderirken lütfen aşağıdaki bilgileri ekleyin:
@@ -55,6 +56,7 @@ Bir sorun gönderirken lütfen aşağıdaki bilgileri ekleyin:
 * Bu konuda ne kadar fazla bilgi eklerseniz, düzeltilmesi de o kadar muhtemeldir!
 
 **Yeni bir image eklemek istiyorsunuz?**
+
 Yeni bir image eklemek için lütfen aşağıdaki adımları izleyiniz;
 
 * Github üzerinden bu repository'yi kendi hesabınıza fork yapın
