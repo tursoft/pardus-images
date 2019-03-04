@@ -35,11 +35,16 @@ https://hub.docker.com/u/tursoft
 * pardus-php
 * pardus-python
 
+
 ### Yol Haritası:
 * Yeni image'ların eklenmesi ve dockerhub üzerinde yayınlanması
 * Image oluşturma ve test süreçlerinin CI\CD hataları ile otomatize edilmesi
 * Yeni ekip üyeleri bulunması
 
+
+### Ekran Görüntüsü
+
+![Ekran Görünütüs](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-hello-world/resources/screenshoots/pardus-hello-world.screenshoot1.jpg)
 
 ### Katkıda Bulunma Prosedürü:
 Ekibe katılmak için lütfen şu adresten bizimle iletişime geçiniz: pardus.images@gmail.com
