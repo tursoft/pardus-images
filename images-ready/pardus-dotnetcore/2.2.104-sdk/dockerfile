@@ -1,5 +1,6 @@
 FROM tursoft/pardus:17.4-SERVER-amd64
 MAINTAINER Muhammet Turşak (tursoft@gmail.com)
+LABEL maintainer="Muhammet Turşak (tursoft@gmail.com)"
 
 # ===============================================================
 # REF: https://github.com/dotnet/dotnet-docker/blob/master/2.2/sdk/stretch/amd64/Dockerfile
