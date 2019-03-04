@@ -1,10 +1,12 @@
 FROM tursoft/pardus-dotnetcore:2.2.104-sdk AS build
 MAINTAINER Muhammet Turşak (tursoft@gmail.com)
+LABEL maintainer="Muhammet Turşak (tursoft@gmail.com)"
 
 # ===============================================================
 # REF: https://github.com/dotnet/dotnet-docker/blob/master/samples/dotnetapp/Dockerfile
 # ===============================================================
 
+# Build =======================
 WORKDIR /app
 
 # copy csproj and restore as distinct layers
@@ -28,8 +30,8 @@ COPY tests/. .
 ENTRYPOINT ["dotnet", "test", "--logger:trx"]
 
 
-FROM tursoft/pardus-dotnetcore:2.2.104-sdk
-# FROM mcr.microsoft.com/dotnet/core/runtime:2.2 AS runtime
+# Runtime =======================
+FROM tursoft/pardus-dotnetcore:2.2.104 AS runtime
 WORKDIR /app
 COPY --from=build /app/dotnetapp/out ./
 ENTRYPOINT ["dotnet", "dotnetapp.dll"]
