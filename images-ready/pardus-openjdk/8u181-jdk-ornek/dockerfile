@@ -11,7 +11,6 @@ RUN echo "=================================" && \
 COPY ./src /app
 WORKDIR /app
 
-RUN mkdir dist
 RUN javac Hello.java
 RUN jar -cvf Hello.jar Hello.class  
 
@@ -30,6 +29,6 @@ RUN echo "=================================" && \
     cat /etc/os-release && \
     echo "================================="
 
-ENTRYPOINT java -jar Hello.jar
+ENTRYPOINT java -jar ./Hello.jar
 
 
