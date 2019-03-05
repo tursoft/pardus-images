@@ -1,0 +1,34 @@
+
+FROM tursoft/pardus-openjdk:8u181-jdk AS build
+
+# Build =======================
+RUN echo "=================================" && \
+    echo "İşletim Sistemi" && \
+    echo "=================================" && \
+    cat /etc/os-release && \
+    echo "================================="
+
+COPY ./src /app
+WORKDIR /app
+
+RUN javac Hello.java
+RUN jar -cvfm Hello.jar manifest.txt Hello.class  
+
+
+# Runtime =======================
+FROM tursoft/pardus-openjdk:8u181-jre AS runtime
+MAINTAINER Muhammet Turşak (tursoft@gmail.com)
+LABEL maintainer="Muhammet Turşak (tursoft@gmail.com)"
+
+WORKDIR /app
+COPY --from=build /app/Hello.jar ./Hello.jar
+
+RUN echo "=================================" && \
+    echo "İşletim Sistemi" && \
+    echo "=================================" && \
+    cat /etc/os-release && \
+    echo "================================="
+
+ENTRYPOINT java -jar ./Hello.jar
+
+

@@ -1,10 +1,10 @@
-FROM tursoft/pardus-dotnetcore:2.2.104-sdk AS build
-MAINTAINER Muhammet Turşak (tursoft@gmail.com)
-LABEL maintainer="Muhammet Turşak (tursoft@gmail.com)"
-
 # ===============================================================
 # REF: https://github.com/dotnet/dotnet-docker/blob/master/samples/dotnetapp/Dockerfile
 # ===============================================================
+
+FROM tursoft/pardus-dotnetcore:2.2.104-sdk AS build
+MAINTAINER Muhammet Turşak (tursoft@gmail.com)
+LABEL maintainer="Muhammet Turşak (tursoft@gmail.com)"
 
 # Build =======================
 RUN echo "=================================" && \
