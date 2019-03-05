@@ -21,7 +21,7 @@ sudo docker run tursoft/pardus-openjdk:8u181-jre java -version
 
 ![pardus-openjdk:8u181-jdk](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-openjdk/8u181-jdk/resources/screenshoots/pardus-openjdk-8u181-jdk.screenshoots1.jpg)
 
-![pardus-openjdk:8u181-jdk-ornek](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-openjdk/8u181-jdk-ornek-ornek/resources/screenshoots/pardus-openjdk-8u181-jdk-ornek.screenshoots1.jpg)
+![pardus-openjdk:8u181-jdk-ornek](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-openjdk/8u181-jdk-ornek/resources/screenshoots/pardus-openjdk-8u181-jdk-ornek.screenshoots1.jpg)
 
 
 ### Test
