@@ -12,7 +12,7 @@ COPY ./src /app
 WORKDIR /app
 
 RUN javac Hello.java
-RUN jar -cvf Hello.jar manifest.txt Hello.class  
+RUN jar -cvfm Hello.jar manifest.txt Hello.class  
 
 
 # Runtime =======================
