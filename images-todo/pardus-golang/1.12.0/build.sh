@@ -1,1 +1,1 @@
-sudo docker build . --tag b1dev/pardus-golang:1.12.0
+sudo docker build . --tag tursoft/pardus-golang:1.12.0
