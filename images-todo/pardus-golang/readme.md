@@ -1,5 +1,5 @@
-![Pardus](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.pardus-dotnetcore.small.png)
-## pardus-dotnetcore
+![Pardus](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.pardus-golang.png)
+## pardus-golang
 
 Pardus Base Image üzerinde golang kurulmuş halini içerir.
 
