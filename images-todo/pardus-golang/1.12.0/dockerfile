@@ -38,7 +38,7 @@ ADD ./main.go $SOURCEDIR/icobani/example
 RUN go get github.com/common-nighthawk/go-figure
 WORKDIR $SOURCEDIR/icobani/example
 #disable crosscompiling
-ENV CGO_ENABLED=0
+#ENV CGO_ENABLED=0
 
 #compile linux only
 #ENV GOOS=linux
