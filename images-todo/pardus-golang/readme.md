@@ -15,8 +15,16 @@ sudo docker run --name tursoft/pardus-golang:1.12.0
 
 
 ### Ekran Görüntüleri
-OS-Release kayıtlarını almak için docker image içinden aşağıdaki şekilde çalıştırdığımızda
-docker run tursoft/pardus-golang:1.12.0 cat /etc/os-release 
+> OS-Release kayıtlarını almak için docker image içinden aşağıdaki şekilde çalıştırdığımızda #
+
+
+----------
+
+`docker run tursoft/pardus-golang:1.12.0 cat /etc/os-release` 
+
+
+----------
+
 ![docker run tursoft/pardus-golang:1.12.0 cat /etc/os-release](https://s3.eu-central-1.amazonaws.com/b1development/pardus/pardus-golang-os-release.png)
 
 
