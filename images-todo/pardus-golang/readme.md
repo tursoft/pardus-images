@@ -15,7 +15,7 @@ sudo docker run --name tursoft/pardus-golang:1.12.0
 
 
 ### Ekran Görüntüleri
-> OS-Release kayıtlarını almak için docker image içinden aşağıdaki şekilde çalıştırdığımızda #
+OS-Release kayıtlarını almak için docker image içinden aşağıdaki şekilde çalıştırdığımızda #
 
 
 ----------
@@ -23,23 +23,34 @@ sudo docker run --name tursoft/pardus-golang:1.12.0
 `docker run tursoft/pardus-golang:1.12.0 cat /etc/os-release` 
 
 
-----------
-
 ![docker run tursoft/pardus-golang:1.12.0 cat /etc/os-release](https://s3.eu-central-1.amazonaws.com/b1development/pardus/pardus-golang-os-release.png)
 
 
 Image'ın içinde bulabileceğiniz örnek uygulamayı aşağıdaki şekilde çalıştırdığınız zaman
-docker run tursoft/pardus-golang:1.12.0 go run /go/src/github.com/icobani/example/main.go
+
+
+----------
+
+`docker run tursoft/pardus-golang:1.12.0 go run /go/src/github.com/icobani/example/main.go`
+
 ![docker run tursoft/pardus-golang:1.12.0 go run /go/src/github.com/icobani/example/main.go](https://s3.eu-central-1.amazonaws.com/b1development/pardus/pardus-golang-run.example.png)
 
 
 Image içersinde 1.12.0 versiyonu bulunmaktadır. Go versiyonunu aşağıdaki şekilde görüntüleyebilirsiniz.
-docker run tursoft/pardus-golang:1.12.0 go version
+
+----------
+
+`docker run tursoft/pardus-golang:1.12.0 go version`
+
 ![docker run tursoft/pardus-golang:1.12.0 go version](https://s3.eu-central-1.amazonaws.com/b1development/pardus/pardus-golang-go-version.png)
 
 
 İlgili örnek kodu aşağıdaki şekilde görüntüleyebilirsiniz.
-docker run tursoft/pardus-golang:1.12.0 cat /go/src/github.com/icobani/example/main.go
+
+----------
+
+`docker run tursoft/pardus-golang:1.12.0 cat /go/src/github.com/icobani/example/main.go`
+
 ![docker run tursoft/pardus-golang:1.12.0 cat /go/src/github.com/icobani/example/main.go](https://s3.eu-central-1.amazonaws.com/b1development/pardus/pardus-golang-example.go.png)
 
 
@@ -47,6 +58,9 @@ docker run tursoft/pardus-golang:1.12.0 cat /go/src/github.com/icobani/example/m
 
 Play with Docker üzerinde test edebilirsiniz:
 Öncelikli olarak aşağıdaki komutu kullanarak ilgili container'ı indirin.
+
+----------
+
 `git pull tursoft/pardus-golang:1.12.0`
 
 [https://labs.play-with-docker.com/](https://labs.play-with-docker.com/)
