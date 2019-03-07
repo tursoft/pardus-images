@@ -11,10 +11,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 ENV GOLANG_VERSION 1.12
 
-RUN sudo apt-get update
+RUN apt-get update
 RUN curl -O https://dl.google.com/go/go1.12.linux-amd64.tar.gz
 RUN tar -xvf go1.11.2.linux-amd64.tar.gz
-RUN sudo mv go /usr/local
+RUN mv go /usr/local
+
 
 ENV GOPATH /go
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
