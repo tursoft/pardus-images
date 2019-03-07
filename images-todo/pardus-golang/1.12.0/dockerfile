@@ -41,8 +41,8 @@ WORKDIR $SOURCEDIR/icobani/example
 ENV CGO_ENABLED=0
 
 #compile linux only
-ENV GOOS=linux
-RUN cd $SOURCEDIR/icobani/example
-RUN go build -ldflags '-w -s' -a -installsuffix cgo -o example
-RUN go run ./main.go
-ENTRYPOINT ["./example"]
+#ENV GOOS=linux
+#RUN cd $SOURCEDIR/icobani/example
+#RUN go build -ldflags '-w -s' -a -installsuffix cgo -o example
+#RUN go run ./main.go
+ENTRYPOINT ["go run ./main.go"]
