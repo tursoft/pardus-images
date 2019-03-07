@@ -77,4 +77,3 @@ Lütfen şu adresten bizimle iletişime geçiniz: tursoft@gmail.com
 * Ibrahim ÇOBANİ - Katkıda Bulunan / Kıdemli Yazılım Mimarı (ibrahim@b1.com.tr) - [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/linkedin-icon.18x18.png)](https://www.linkedin.com/in/ibrahimcobani/)
 
 ## Kaynaklar
-* https://hub.docker.com/_/microsoft-dotnet-core-runtime/
