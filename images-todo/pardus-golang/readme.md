@@ -1,4 +1,4 @@
-![Pardus](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.pardus-golang.png)
+![Pardus](https://s3.eu-central-1.amazonaws.com/b1development/pardus/docker.pardus-golang.png)
 ## pardus-golang
 
 Pardus Base Image üzerinde golang kurulmuş halini içerir.
