@@ -16,6 +16,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 ENV GOLANG_VERSION 1.12
+ENV SOURCEDIR=/go/src/github.com
 
 RUN curl -SL --insecure --output go.tar.gz https://dl.google.com/go/go1.12.linux-amd64.tar.gz
 RUN tar -xvf go.tar.gz
@@ -27,3 +28,18 @@ ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 
 RUN mkdir -p "$GOPATH/src" "$GOPATH/bin" && chmod -R 777 "$GOPATH"
 WORKDIR $GOPATH
+RUN mkdir $SOURCEDIR
+RUN mkdir $SOURCEDIR/icobani
+RUN mkdir $SOURCEDIR/icobani/example
+RUN cd $SOURCEDIR/icobani/example
+
+ADD ../example/. $SOURCEDIR/icobani/example
+WORKDIR $SOURCEDIR/icobani/example
+#disable crosscompiling
+ENV CGO_ENABLED=0
+
+#compile linux only
+ENV GOOS=linux
+
+RUN go build -ldflags '-w -s' -a -installsuffix cgo -o example
+ENTRYPOINT ["./example"]
