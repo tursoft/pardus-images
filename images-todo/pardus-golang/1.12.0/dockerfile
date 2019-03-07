@@ -34,7 +34,7 @@ RUN mkdir $SOURCEDIR/icobani/example
 RUN cd $SOURCEDIR/icobani/example
 
 ADD ./main.go $SOURCEDIR/icobani/example
-RUN RUN go get ./...
+RUN go get ./...
 WORKDIR $SOURCEDIR/icobani/example
 #disable crosscompiling
 ENV CGO_ENABLED=0
