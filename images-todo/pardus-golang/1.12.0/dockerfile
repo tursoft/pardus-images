@@ -1,17 +1,22 @@
 FROM tursoft/pardus:17.4-SERVER-amd64
 LABEL maintainer="Ibrahim ÇOBANİ (ibrahim@b1.com.tr)"
 # gcc for cgo
-RUN apt-get update && apt-get install -y --no-install-recommends \
-		g++ \
-		gcc \
-		libc6-dev \
-		make \
-		pkg-config \
-	&& rm -rf /var/lib/apt/lists/*
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        libc6 \
+        libgcc1 \
+        libgssapi-krb5-2 \
+        libicu57 \
+        liblttng-ust0 \
+        libssl1.0.2 \
+        libstdc++6 \
+        zlib1g \
+        libterm-readline-gnu-perl \
+        curl \
+    && rm -rf /var/lib/apt/lists/*
 
 ENV GOLANG_VERSION 1.12
 
-RUN apt-get update
 RUN curl -SL --insecure --output go.tar.gz https://dl.google.com/go/go1.12.linux-amd64.tar.gz
 RUN tar -xvf go.tar.gz
 RUN mv go /usr/local
