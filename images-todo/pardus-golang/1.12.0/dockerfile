@@ -45,4 +45,4 @@ WORKDIR $SOURCEDIR/icobani/example
 #RUN cd $SOURCEDIR/icobani/example
 RUN go build -ldflags '-w -s' -a -installsuffix cgo -o example
 #RUN go run ./main.go
-ENTRYPOINT ["./example"]
+#ENTRYPOINT ["./example"]
