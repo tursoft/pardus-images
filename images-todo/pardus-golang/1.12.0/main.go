@@ -1,7 +1,17 @@
 package main
 
-import "log"
+import figure "github.com/common-nighthawk/go-figure"
 
 func main() {
-	log.Println("Pardus'da GoLang'da çalışır.")
+	myFigure := figure.NewFigure("Golang", "", true)
+	myFigure.Print()
+
+	myFigure = figure.NewFigure("Pardus'da", "", true)
+	myFigure.Print()
+
+	myFigure = figure.NewFigure("Calisiyor.", "", true)
+	myFigure.Print()
+
+	myFigure = figure.NewFigure("(graaav)", "", true)
+	myFigure.Print()
 }
