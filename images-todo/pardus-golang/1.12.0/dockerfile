@@ -13,6 +13,7 @@ RUN apt-get update \
         zlib1g \
         libterm-readline-gnu-perl \
         curl \
+		git-all \
     && rm -rf /var/lib/apt/lists/*
 
 ENV GOLANG_VERSION 1.12
