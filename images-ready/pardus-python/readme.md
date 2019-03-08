@@ -12,9 +12,18 @@ Pardus Base Image üzerinde çalışan python uygulamasıdır.
 sudo docker run tursoft/pardus-python:2.7.13 python -V
 ```
 
+```sh
+sudo docker run -p 8000:8000 tursoft/pardus-python:2.7.13-ornek
+```
+
+
 ### Test
 Play with Docker üzerinde test edebilirsiniz:
 [https://labs.play-with-docker.com/](https://labs.play-with-docker.com/)
+
+### Tag'ler
+* 2.7.13
+* 2.7.13-ornek
 
 ### Ekran Görüntüsü
 
