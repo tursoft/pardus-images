@@ -27,14 +27,16 @@ https://hub.docker.com/u/tursoft
 
 * [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) pardus-dotnetcore](https://cloud.docker.com/repository/docker/tursoft/pardus-dotnetcore) ![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus-dotnetcore.svg)
 
+* [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) pardus-openjdk](https://cloud.docker.com/repository/docker/tursoft/pardus-openjdk) ![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus-openjdk.svg)
+
+* [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) pardus-golang](https://cloud.docker.com/repository/docker/tursoft/pardus-golang) ![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus-golang.svg)
 
 ### Yeni Eklenecek Image Listesi:
-* pardus-jdk
+* pardus-python
 * pardus-mysql
 * pardus-postgresql
 * pardus-php
-* pardus-python
-
+* pardus-nodejs
 
 ### Yol Haritası:
 * Yeni image'ların eklenmesi ve dockerhub üzerinde yayınlanması
