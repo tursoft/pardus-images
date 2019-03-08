@@ -18,7 +18,7 @@ Play with Docker üzerinde test edebilirsiniz:
 
 ### Ekran Görüntüsü
 
-![Ekran Görünütüs](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-python/resources/screenshoots/pardus-python.screenshoot1.jpg)
+![Ekran Görünütüs](https://raw.githubusercontent.com/karapazar/pardus-images/master/images-ready/pardus-python/resources/screenshoots/pardus-python.screenshoot1.png)
 
 ### Github Projesi
 [https://github.com/tursoft/pardus-images](https://github.com/tursoft/pardus-images)
