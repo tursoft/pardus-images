@@ -1,0 +1,48 @@
+FROM tursoft/pardus:17.4-SERVER-amd64
+LABEL maintainer="Ibrahim ÇOBANİ (ibrahim@b1.com.tr)"
+# gcc for cgo
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        libc6 \
+        libgcc1 \
+        libgssapi-krb5-2 \
+        libicu57 \
+        liblttng-ust0 \
+        libssl1.0.2 \
+        libstdc++6 \
+        zlib1g \
+        libterm-readline-gnu-perl \
+        curl \
+		git-all \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV GOLANG_VERSION 1.12
+ENV SOURCEDIR=/go/src/github.com
+
+RUN curl -SL --insecure --output go.tar.gz https://dl.google.com/go/go1.12.linux-amd64.tar.gz
+RUN tar -xvf go.tar.gz
+RUN mv go /usr/local
+
+
+ENV GOPATH /go
+ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
+
+RUN mkdir -p "$GOPATH/src" "$GOPATH/bin" && chmod -R 777 "$GOPATH"
+WORKDIR $GOPATH
+RUN mkdir $SOURCEDIR
+RUN mkdir $SOURCEDIR/icobani
+RUN mkdir $SOURCEDIR/icobani/example
+RUN cd $SOURCEDIR/icobani/example
+
+ADD ./main.go $SOURCEDIR/icobani/example
+RUN go get github.com/common-nighthawk/go-figure
+WORKDIR $SOURCEDIR/icobani/example
+#disable crosscompiling
+#ENV CGO_ENABLED=0
+
+#compile linux only
+#ENV GOOS=linux
+#RUN cd $SOURCEDIR/icobani/example
+RUN go build -ldflags '-w -s' -a -installsuffix cgo -o example
+#RUN go run ./main.go
+#ENTRYPOINT ["./example"]
