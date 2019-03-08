@@ -31,6 +31,9 @@ https://hub.docker.com/u/tursoft
 
 * [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) pardus-golang](https://cloud.docker.com/repository/docker/tursoft/pardus-golang) ![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus-golang.svg)
 
+
+* [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) pardus-python](https://cloud.docker.com/repository/docker/tursoft/pardus-python) ![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus-python.svg)
+
 ### Yeni Eklenecek Image Listesi:
 * pardus-python
 * pardus-mysql
