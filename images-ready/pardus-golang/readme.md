@@ -23,7 +23,7 @@ OS-Release kayıtlarını almak için docker image içinden aşağıdaki şekild
 `docker run tursoft/pardus-golang:1.12.0 cat /etc/os-release` 
 
 
-![docker run tursoft/pardus-golang:1.12.0 cat /etc/os-release](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-golang/1.12.0/resources/screenshoots/resources/screenshoots/pardus-golang-os-release.png)
+![docker run tursoft/pardus-golang:1.12.0 cat /etc/os-release](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-golang/1.12.0/resources/screenshoots/pardus-golang-os-release.png)
 
 
 Image'ın içinde bulabileceğiniz örnek uygulamayı aşağıdaki şekilde çalıştırdığınız zaman
