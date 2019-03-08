@@ -1,0 +1,8 @@
+version: "3.3"
+
+services:
+
+    pardus:
+        image: tursoft/pardus-python
+        volumes:
+            - ./:/python
