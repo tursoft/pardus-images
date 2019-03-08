@@ -9,7 +9,7 @@ Pardus Base Image üzerinde çalışan python uygulamasıdır.
 
 
 ```sh
-docker run -v `pwd`:/python tursoft/pardus-python
+sudo docker run tursoft/pardus-python:2.7.13 python -V
 ```
 
 ### Test
@@ -18,7 +18,7 @@ Play with Docker üzerinde test edebilirsiniz:
 
 ### Ekran Görüntüsü
 
-![Ekran Görünütüs](https://raw.githubusercontent.com/karapazar/pardus-images/master/images-ready/pardus-python/resources/screenshoots/pardus-python.screenshoot1.png)
+![Ekran Görünütüs](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-python/resources/screenshoots/pardus-python.screenshoot.web.jpg)
 
 ### Github Projesi
 [https://github.com/tursoft/pardus-images](https://github.com/tursoft/pardus-images)
@@ -28,4 +28,5 @@ Lütfen şu adresten bizimle iletişime geçiniz: tursoft@gmail.com
 
 ### Proje Ekibi
 * Muhammet Turşak - Ekip Lideri / Kıdemli Yazılım Mimarı (tursoft@gmail.com) - [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/linkedin-icon.18x18.png)](https://www.linkedin.com/in/tursoft/)
+
 * Ömer SAVAŞ - Kıdemli Yazılım Mimarı (iletisim@omersavas.com) - [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/linkedin-icon.18x18.png)](https://www.linkedin.com/in/omersavas/)

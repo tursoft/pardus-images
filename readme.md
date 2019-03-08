@@ -95,6 +95,8 @@ https://help.github.com/en/articles/creating-a-pull-request-from-a-fork
 
 * İbrahim ÇOBANİ - Katkıda Bulunan / Kıdemli Yazılım Mimarı (ibrahim@b1.com.tr) - [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/linkedin-icon.18x18.png)](https://www.linkedin.com/in/ibrahimcobani/)
 
+* Ömer SAVAŞ - Kıdemli Yazılım Mimarı (iletisim@omersavas.com) - [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/linkedin-icon.18x18.png)](https://www.linkedin.com/in/omersavas/)
+
 ### Kaynaklar
 * https://www.pardus.org.tr/
 * https://docs.docker.com/install/linux/docker-ce/debian/
