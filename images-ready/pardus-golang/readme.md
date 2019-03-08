@@ -23,7 +23,7 @@ OS-Release kayıtlarını almak için docker image içinden aşağıdaki şekild
 `docker run tursoft/pardus-golang:1.12.0 cat /etc/os-release` 
 
 
-![docker run tursoft/pardus-golang:1.12.0 cat /etc/os-release](https://s3.eu-central-1.amazonaws.com/b1development/pardus/pardus-golang-os-release.png)
+![docker run tursoft/pardus-golang:1.12.0 cat /etc/os-release](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-golang/1.12.0/resources/screenshoots/pardus-golang-os-release.png)
 
 
 Image'ın içinde bulabileceğiniz örnek uygulamayı aşağıdaki şekilde çalıştırdığınız zaman
@@ -33,7 +33,7 @@ Image'ın içinde bulabileceğiniz örnek uygulamayı aşağıdaki şekilde çal
 
 `docker run tursoft/pardus-golang:1.12.0 go run /go/src/github.com/icobani/example/main.go`
 
-![docker run tursoft/pardus-golang:1.12.0 go run /go/src/github.com/icobani/example/main.go](https://s3.eu-central-1.amazonaws.com/b1development/pardus/pardus-golang-run.example.png)
+![docker run tursoft/pardus-golang:1.12.0 go run /go/src/github.com/icobani/example/main.go](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-golang/1.12.0/pardus-golang-run.example.png)
 
 
 Image içersinde 1.12.0 versiyonu bulunmaktadır. Go versiyonunu aşağıdaki şekilde görüntüleyebilirsiniz.
@@ -42,7 +42,7 @@ Image içersinde 1.12.0 versiyonu bulunmaktadır. Go versiyonunu aşağıdaki ş
 
 `docker run tursoft/pardus-golang:1.12.0 go version`
 
-![docker run tursoft/pardus-golang:1.12.0 go version](https://s3.eu-central-1.amazonaws.com/b1development/pardus/pardus-golang-go-version.png)
+![docker run tursoft/pardus-golang:1.12.0 go version](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-golang/1.12.0/pardus-golang-go-version.png)
 
 
 İlgili örnek kodu aşağıdaki şekilde görüntüleyebilirsiniz.
@@ -51,7 +51,7 @@ Image içersinde 1.12.0 versiyonu bulunmaktadır. Go versiyonunu aşağıdaki ş
 
 `docker run tursoft/pardus-golang:1.12.0 cat /go/src/github.com/icobani/example/main.go`
 
-![docker run tursoft/pardus-golang:1.12.0 cat /go/src/github.com/icobani/example/main.go](https://s3.eu-central-1.amazonaws.com/b1development/pardus/pardus-golang-example.go.png)
+![docker run tursoft/pardus-golang:1.12.0 cat /go/src/github.com/icobani/example/main.go](https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-golang/1.12.0/pardus-golang-example.go.png)
 
 
 ### Test
@@ -77,3 +77,4 @@ Lütfen şu adresten bizimle iletişime geçiniz: tursoft@gmail.com
 * İbrahim ÇOBANİ - Katkıda Bulunan / Kıdemli Yazılım Mimarı (ibrahim@b1.com.tr) - [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/linkedin-icon.18x18.png)](https://www.linkedin.com/in/ibrahimcobani/)
 
 ## Kaynaklar
+* 
