@@ -11,7 +11,9 @@ sudo docker run --name tursoft/pardus-dotnetcore:2.2.2
 ```
 
 ### Tag'ler
-* 2.2.2
+* 2.2.2  
+[http://play-with-docker.com?stack=https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-dotnetcore/2.2.2/docker-compose.yaml](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/misc/pwd.button.png)
+
 * 2.2.104.sdk
 * 2.2.104.sdk-ornek
 
@@ -28,6 +30,9 @@ sudo docker run --name tursoft/pardus-dotnetcore:2.2.2
 
 Play with Docker üzerinde test edebilirsiniz:
 [https://labs.play-with-docker.com/](https://labs.play-with-docker.com/)
+
+
+
 
 ### Github Projesi
 [https://github.com/tursoft/pardus-images](https://github.com/tursoft/pardus-images)
