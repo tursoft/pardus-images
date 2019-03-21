@@ -1,0 +1,14 @@
+version: '3.1'
+
+networks:
+  testnetwork:
+
+services:
+
+  app1:
+    image: tursoft/pardus-dotnetcore:2.2.2
+    command:
+      - 'dotnet --version'
+    restart: always
+    networks:
+      - testnetwork    

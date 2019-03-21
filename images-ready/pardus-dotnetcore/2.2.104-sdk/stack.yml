@@ -1,0 +1,13 @@
+version: '3.1'
+
+networks:
+  testnetwork:
+
+services:
+
+  app1:
+    image: tursoft/pardus-dotnetcore:2.2.104-sdk
+    command:
+      - 'dotnet --version'
+    networks:
+      - testnetwork
