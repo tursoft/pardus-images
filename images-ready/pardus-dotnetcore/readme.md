@@ -11,11 +11,11 @@ sudo docker run --name tursoft/pardus-dotnetcore:2.2.2
 ```
 
 ### Tag'ler
-* 2.2.2 [![Test in Play with Docker](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/misc/pwd.button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/tursoft/pardus-images/dev/images-ready/pardus-dotnetcore/2.2.2/stack.yml)
+* 2.2.2 [![Test in Play with Docker](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/misc/pwd.button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-dotnetcore/2.2.2/stack.yml)
 
-* 2.2.104-sdk [![Test in Play with Docker](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/misc/pwd.button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/tursoft/pardus-images/dev/images-ready/pardus-dotnetcore/2.2.104-sdk/stack.yml)
+* 2.2.104-sdk [![Test in Play with Docker](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/misc/pwd.button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-dotnetcore/2.2.104-sdk/stack.yml)
 
-* 2.2.104-sdk-ornek [![Test in Play with Docker](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/misc/pwd.button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/tursoft/pardus-images/dev/images-ready/pardus-dotnetcore/2.2.104-sdk-ornek/stack.yml)
+* 2.2.104-sdk-ornek [![Test in Play with Docker](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/misc/pwd.button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-dotnetcore/2.2.104-sdk-ornek/stack.yml)
 
 ### Ekran Görüntüleri
 
