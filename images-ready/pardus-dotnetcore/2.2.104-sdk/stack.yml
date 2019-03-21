@@ -5,7 +5,7 @@ networks:
 
 services:
 
-  app1:
+  dotnet_sdk:
     image: tursoft/pardus-dotnetcore:2.2.104-sdk
     command:
       - 'dotnet --version'
