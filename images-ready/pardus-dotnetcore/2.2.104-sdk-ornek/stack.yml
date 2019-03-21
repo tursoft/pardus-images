@@ -7,6 +7,6 @@ services:
 
   dotnet_sdk_ornek:
     image: tursoft/pardus-dotnetcore:2.2.104-sdk-ornek
-    entrypoint: dotnet test --logger:trx && sleep infinity   
+    entrypoint: dotnet test --logger:trx && sleep 99999999   
     networks:
       - testnetwork    
