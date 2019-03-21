@@ -7,8 +7,6 @@ services:
 
   dotnet_sdk:
     image: tursoft/pardus-dotnetcore:2.2.104-sdk
-    command:
-      - 'dotnet --version'
-      - 'sleep infinity'
+    entrypoint: dotnet --version && sleep infinity
     networks:
       - testnetwork
