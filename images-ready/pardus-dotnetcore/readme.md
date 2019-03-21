@@ -14,7 +14,7 @@ sudo docker run --name tursoft/pardus-dotnetcore:2.2.2
 * 2.2.2  
 [![Test in Play with Docker](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/misc/pwd.button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-dotnetcore/2.2.2/stack.yaml)
 
-[![Test in Play with Docker](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/misc/pwd.button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/tursoft/pardus-images/dev/images-ready/pardus-dotnetcore/2.2.2/stacktst.yaml)
+[![Test in Play with Docker](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/misc/pwd.button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/tursoft/pardus-images/dev/images-ready/pardus-dotnetcore/2.2.2/stacktest.yaml)
 
 
 * 2.2.104.sdk
