@@ -9,5 +9,6 @@ services:
     image: tursoft/pardus-dotnetcore:2.2.104-sdk
     command:
       - 'dotnet --version'
+      - 'sleep infinity'
     networks:
       - testnetwork
