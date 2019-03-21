@@ -12,7 +12,7 @@ sudo docker run --name tursoft/pardus-dotnetcore:2.2.2
 
 ### Tag'ler
 * 2.2.2  
-[![Test in Play with Docker](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/misc/pwd.button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-dotnetcore/2.2.2/docker-compose.yaml)
+[![Test in Play with Docker](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/misc/pwd.button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-dotnetcore/2.2.2/stack.yaml)
 
 * 2.2.104.sdk
 * 2.2.104.sdk-ornek
