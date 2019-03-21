@@ -1,0 +1,9 @@
+# Stack file for pardus-dotnetcore
+version: '3.1'
+
+services:
+
+  app:
+    image: tursoft/pardus-dotnetcore:2.2.2
+    command: dotnet --version
+    restart: always
