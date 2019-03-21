@@ -23,7 +23,7 @@ https://hub.docker.com/u/tursoft
 
  
 ### Mevcut Image Listesi:
-* [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) pardus-hello-world](https://cloud.docker.com/repository/docker/tursoft/pardus-hello-world) ![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus-hello-world.svg)
+* [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) pardus-hello-world](https://cloud.docker.com/repository/docker/tursoft/pardus-hello-world) ![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus-hello-world.svg) [![Test in Play with Docker](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/misc/pwd.button.png)](http://play-with-docker.com?stack=https://raw.githubusercontent.com/tursoft/pardus-images/master/images-ready/pardus-dotnetcore/2.2.104-sdk-ornek/stack.yml)
 
 * [![Linkedin](https://raw.githubusercontent.com/tursoft/pardus-images/master/_resources/images/docker.20x20.png) pardus-dotnetcore](https://cloud.docker.com/repository/docker/tursoft/pardus-dotnetcore) ![Docker Pulls](https://img.shields.io/docker/pulls/tursoft/pardus-dotnetcore.svg)
 
