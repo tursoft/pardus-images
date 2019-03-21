@@ -7,6 +7,6 @@ services:
 
   dotnet_sdk:
     image: tursoft/pardus-dotnetcore:2.2.104-sdk
-    entrypoint: dotnet --version && sleep infinity
+    entrypoint: dotnet --version && sleep 99999999
     networks:
       - testnetwork
