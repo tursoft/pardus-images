@@ -20,9 +20,11 @@ RUN echo "dpkgArch => ${dpkgArch##*-} " && \
     armhf) ARCH='armv7l';; \
     i386) ARCH='x86';; \
     *) echo "unsupported architecture"; exit 1 ;; \
-  esac \
+  esac && echo "ARCH=> $ARCH" \
   # gpg keys listed at https://github.com/nodejs/node#release-keys
   && set -ex \
+  && apt --fix-broken install \
+  && apt-get install dirmngr \
   && for key in \
     94AE36675C464D64BAFA68DD7434390BDBE9B9C5 \
     FD3A5288F042B6850C66B31F09FE44734EB7990E \
