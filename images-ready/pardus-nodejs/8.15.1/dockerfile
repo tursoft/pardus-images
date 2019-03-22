@@ -22,6 +22,8 @@ RUN ARCH= && dpkgArch="$(dpkg --print-architecture)" \
   esac \
   # gpg keys listed at https://github.com/nodejs/node#release-keys
   && set -ex \
+  && apt-get install dirmngr -y --install-recommends \
+  && apt --fix-broken install -y \
   && for key in \
     94AE36675C464D64BAFA68DD7434390BDBE9B9C5 \
     FD3A5288F042B6850C66B31F09FE44734EB7990E \
