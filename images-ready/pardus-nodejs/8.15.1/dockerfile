@@ -23,8 +23,8 @@ RUN echo "dpkgArch => ${dpkgArch##*-} " && \
   esac && echo "ARCH=> $ARCH" \
   # gpg keys listed at https://github.com/nodejs/node#release-keys
   && set -ex \
-  && apt --fix-broken install \
-  && apt-get install dirmngr \
+  && apt --fix-broken install -y \
+  && apt-get install dirmngr -y \
   && for key in \
     94AE36675C464D64BAFA68DD7434390BDBE9B9C5 \
     FD3A5288F042B6850C66B31F09FE44734EB7990E \
