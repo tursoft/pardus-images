@@ -1,0 +1,13 @@
+version: '3.1'
+
+networks:
+  testnetwork:
+
+services:
+
+  nodejs_runtime:
+    image: tursoft/pardus-nodejs:8.15.1
+    entrypoint: node --version && sleep 99999999
+    restart: always
+    networks:
+      - testnetwork

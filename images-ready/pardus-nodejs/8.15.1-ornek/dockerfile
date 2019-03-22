@@ -1,0 +1,33 @@
+# ===============================================================
+# REF: https://github.com/dotnet/dotnet-docker/blob/master/samples/dotnetapp/Dockerfile
+# ===============================================================
+
+FROM tursoft/pardus-nodejs:8.15.1
+MAINTAINER Muhammet Turşak (tursoft@gmail.com)
+LABEL maintainer="Muhammet Turşak (tursoft@gmail.com)"
+
+# Create app directory
+WORKDIR /usr/src/app
+
+# Install app dependencies
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+# where available (npm@5+)
+COPY package*.json ./
+
+RUN npm install
+# If you are building your code for production
+# RUN npm ci --only=production
+
+# Bundle app source
+COPY ./sampleapp/*.* ./
+
+EXPOSE 8080
+
+CMD  echo "=================================" && \
+     echo "İşletim Sistemi:" && \
+     cat /etc/os-release && \
+	 echo " " && \
+     echo "Node Versiyon:" && \
+     node --version && \			
+     echo "=================================" && \
+	 npm start
