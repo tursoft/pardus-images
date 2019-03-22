@@ -10,9 +10,8 @@ RUN groupadd --gid 1000 node \
 
 ENV NODE_VERSION 8.15.1
 
-RUN echo "dpkgArch => ${dpkgArch##*-} " && \
-    ARCH= && dpkgArch="$(dpkg --print-architecture)" && \
-    case "${dpkgArch##*-}" in \
+RUN ARCH= && dpkgArch="$(dpkg --print-architecture)" \
+  && case "${dpkgArch##*-}" in \
     amd64) ARCH='x64';; \
     ppc64el) ARCH='ppc64le';; \
     s390x) ARCH='s390x';; \
@@ -20,11 +19,9 @@ RUN echo "dpkgArch => ${dpkgArch##*-} " && \
     armhf) ARCH='armv7l';; \
     i386) ARCH='x86';; \
     *) echo "unsupported architecture"; exit 1 ;; \
-  esac && echo "ARCH=> $ARCH" \
+  esac \
   # gpg keys listed at https://github.com/nodejs/node#release-keys
   && set -ex \
-  && apt --fix-broken install -y \
-  && apt-get install dirmngr -y \
   && for key in \
     94AE36675C464D64BAFA68DD7434390BDBE9B9C5 \
     FD3A5288F042B6850C66B31F09FE44734EB7990E \
@@ -42,8 +39,8 @@ RUN echo "dpkgArch => ${dpkgArch##*-} " && \
     gpg --batch --keyserver hkp://ipv4.pool.sks-keyservers.net --recv-keys "$key" || \
     gpg --batch --keyserver hkp://pgp.mit.edu:80 --recv-keys "$key" ; \
   done \
-  && curl -fsSLO --compressed "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-$ARCH.tar.xz" \
-  && curl -fsSLO --compressed "https://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc" \
+  && curl -fsSLO --insecure --compressed "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-$ARCH.tar.xz" \
+  && curl -fsSLO --insecure --compressed "https://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc" \
   && gpg --batch --decrypt --output SHASUMS256.txt SHASUMS256.txt.asc \
   && grep " node-v$NODE_VERSION-linux-$ARCH.tar.xz\$" SHASUMS256.txt | sha256sum -c - \
   && tar -xJf "node-v$NODE_VERSION-linux-$ARCH.tar.xz" -C /usr/local --strip-components=1 --no-same-owner \
@@ -60,8 +57,8 @@ RUN set -ex \
     gpg --batch --keyserver hkp://ipv4.pool.sks-keyservers.net --recv-keys "$key" || \
     gpg --batch --keyserver hkp://pgp.mit.edu:80 --recv-keys "$key" ; \
   done \
-  && curl -fsSLO --insecure  --compressed "https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v$YARN_VERSION.tar.gz" \
-  && curl -fsSLO --insecure  --compressed "https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v$YARN_VERSION.tar.gz.asc" \
+  && curl -fsSLO --insecure --compressed "https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v$YARN_VERSION.tar.gz" \
+  && curl -fsSLO --insecure --compressed "https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v$YARN_VERSION.tar.gz.asc" \
   && gpg --batch --verify yarn-v$YARN_VERSION.tar.gz.asc yarn-v$YARN_VERSION.tar.gz \
   && mkdir -p /opt \
   && tar -xzf yarn-v$YARN_VERSION.tar.gz -C /opt/ \
